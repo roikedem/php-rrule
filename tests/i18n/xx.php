@@ -1,19 +1,5 @@
 <?php
 
-/**
- * Translation file for English language.
- *
- * Most strings can be an array, with a value as the key. The system will
- * pick the translation corresponding to the key. The key "else" will be picked
- * if no matching value is found. This is useful for plurals.
- *
- * Licensed under the MIT license.
- *
- * For the full copyright and license information, please view the LICENSE file.
- *
- * @author Rémi Lanvin <remi@cloudconnected.fr>
- * @link https://github.com/rlanvin/php-rrule
- */
 return array(
 	'yearly' => array(
 		'1' => 'yearly',
@@ -52,7 +38,7 @@ return array(
 		'1' => ', one time',
 		'else' => ', %{count} times'
 	),
-	'and' => 'and ',
+	'and' => 'and',
 	'x_of_the_y' => array(
 		'yearly' => '%{x} of the year', // e.g. the first Monday of the year, or the first day of the year
 		'monthly' => '%{x} of the month',

@@ -45,14 +45,14 @@ return array(
         '1' => 'elke seconde',
         'else' => 'elke %{interval} seconden'
     ),
-    'dtstart' => ', wordt getart vanaf %{date}',
+    'dtstart' => ', wordt gestart vanaf %{date}',
     'infinite' => ', oneindig',
     'until' => ', tot en met %{date}',
     'count' => array(
         '1' => ', één keer',
         'else' => ', %{count} keren'
     ),
-    'and' => 'en',
+    'and' => 'en ',
     'x_of_the_y' => array(
         'yearly' => '%{x} van het jaar', // e.g. the first Monday of the year, or the first day of the year
         'monthly' => '%{x} van de maand',
@@ -108,7 +108,7 @@ return array(
         '-1' => 'de laatste dag', // not so many options necessary for NL translation, but none removed
         '-2' => 'de voorlaatste dag',
         '-3' => 'de twee-na-laatste dag',
-        'else' => 'de %{n}e tot de laastste dag'
+        'else' => 'de %{n}e tot de laatste dag'
     ),
     'byyearday' => array(
         '1' => ' op dag %{yeardays}',
@@ -151,7 +151,7 @@ return array(
 		'else' => 'de %{n}e'
 	),
 	'-nth_setpos' => array(
-        '-1' => 'de laastste',
+        '-1' => 'de laatste',
         '-2' => 'de voorlaatste',
         '-3' => 'de twee-na-laatste',
         'else' => 'de %{n}e tot de laatste'
