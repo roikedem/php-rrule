@@ -15,8 +15,8 @@ return array(
 		'else' => 'כל  %{interval} שנים'
 	),
 	'monthly' => array(
-		'1' => 'monthly',
-		'else' => 'every %{interval} months'
+		'1' => 'כל חודש',
+		'else' => 'כל %{interval} חודשים'
 	),
 	'weekly' => array(
 		'1' => 'כל שבוע',
